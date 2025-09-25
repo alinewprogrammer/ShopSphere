@@ -5,12 +5,12 @@ import { i18n } from '@/i18n-config'
 
 const users: IUserInput[] = [
   {
-    name: 'John',
-    email: 'admin@example.com',
-    password: bcrypt.hashSync('123456', 5),
+    name: 'Ali Ahmed',
+    email: 'alihassan182006@gmail.com',
+    password: bcrypt.hashSync('8stGzqud', 5),
     role: 'Admin',
     address: {
-      fullName: 'John Doe',
+      fullName: 'Ali Ahmed',
       street: '111 Main St',
       city: 'New York',
       province: 'NY',
@@ -1067,11 +1067,11 @@ const data: Data = {
     {
       title: 'About Us',
       slug: 'about-us',
-      content: `Welcome to [Your Store Name], your trusted destination for quality products and exceptional service. Our journey began with a mission to bring you the best shopping experience by offering a wide range of products at competitive prices, all in one convenient platform.
+      content: `Welcome to ShopSphere, your trusted destination for quality products and exceptional service. Our journey began with a mission to bring you the best shopping experience by offering a wide range of products at competitive prices, all in one convenient platform.
 
-At [Your Store Name], we prioritize customer satisfaction and innovation. Our team works tirelessly to curate a diverse selection of items, from everyday essentials to exclusive deals, ensuring there's something for everyone. We also strive to make your shopping experience seamless with fast shipping, secure payments, and excellent customer support.
+At ShopSphere, we prioritize customer satisfaction and innovation. Our team works tirelessly to curate a diverse selection of items, from everyday essentials to exclusive deals, ensuring there's something for everyone. We also strive to make your shopping experience seamless with fast shipping, secure payments, and excellent customer support.
 
-As we continue to grow, our commitment to quality and service remains unwavering. Thank you for choosing [Your Store Name]—we look forward to being a part of your journey and delivering value every step of the way.`,
+As we continue to grow, our commitment to quality and service remains unwavering. Thank you for choosing ShopSphere—we look forward to being a part of your journey and delivering value every step of the way.`,
       isPublished: true,
     },
     {
@@ -1122,7 +1122,7 @@ Your data is safeguarded through robust security measures to prevent unauthorize
     {
       title: 'Conditions of Use',
       slug: 'conditions-of-use',
-      content: `Welcome to [Ecommerce Website Name]. By accessing or using our website, you agree to comply with and be bound by the following terms and conditions. These terms govern your use of our platform, including browsing, purchasing products, and interacting with any content or services provided. You must be at least 18 years old or have the consent of a parent or guardian to use this website. Any breach of these terms may result in the termination of your access to our platform.
+      content: `Welcome to ShopSphere. By accessing or using our website, you agree to comply with and be bound by the following terms and conditions. These terms govern your use of our platform, including browsing, purchasing products, and interacting with any content or services provided. You must be at least 18 years old or have the consent of a parent or guardian to use this website. Any breach of these terms may result in the termination of your access to our platform.
 
 We strive to ensure all product descriptions, pricing, and availability information on our website are accurate. However, errors may occur, and we reserve the right to correct them without prior notice. All purchases are subject to our return and refund policy. By using our site, you acknowledge that your personal information will be processed according to our privacy policy, ensuring your data is handled securely and responsibly. Please review these terms carefully before proceeding with any transactions.
 `,
@@ -1131,7 +1131,7 @@ We strive to ensure all product descriptions, pricing, and availability informat
     {
       title: 'Customer Service',
       slug: 'customer-service',
-      content: `At [Your Store Name], our customer service team is here to ensure you have the best shopping experience. Whether you need assistance with orders, product details, or returns, we are committed to providing prompt and helpful support.
+      content: `At ShopSphere, our customer service team is here to ensure you have the best shopping experience. Whether you need assistance with orders, product details, or returns, we are committed to providing prompt and helpful support.
 
 If you have questions or concerns, please reach out to us through our multiple contact options:
 - **Email:** support@example.com
@@ -1251,13 +1251,13 @@ We also provide helpful resources such as order tracking, product guides, and FA
         pageSize: 9,
       },
       site: {
-        name: 'NxtAmzn',
+        name: 'ShopSphere',
         description:
-          'NxtAmzn is a sample Ecommerce website built with Next.js, Tailwind CSS, and MongoDB.',
+          'ShopSphere is your one-stop shop for finding the best deals on the web.',
         keywords: 'Next Ecommerce, Next.js, Tailwind CSS, MongoDB',
         url: 'https://next-mongo-ecommerce-final.vercel.app',
         logo: '/icons/logo.svg',
-        slogan: 'Spend less, enjoy more.',
+        slogan: 'Your World, Your Store.',
         author: 'Next Ecommerce',
         copyright: '2000-2024, Next-Ecommerce.com, Inc. or its affiliates',
         email: 'admin@example.com',
